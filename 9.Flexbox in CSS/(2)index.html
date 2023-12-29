@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Properties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Key Properties in the Flexbox Layout Model</h1>
+
+    <h2>1. justify-content</h2>
+    <p>This property defines how the browser distributes space between and around content items along the main axis of a flex container. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. For example, 'justify-content: center;' will center the items along the line, and 'justify-content: space-between;' will display an equal amount of space between the items.</p>
+
+    <h2>2. align-items</h2>
+    <p>This property controls the alignment of items along the cross-axis (perpendicular to the main axis). For example, 'align-items: center;' will ensure that items are centered in the cross-axis. If your flex container has a height set, then the items will stretch to that height, regardless of how much content is in the item.</p>
+
+    <h2>3. gap</h2>
+    <p>This property defines the size of the gap between the rows and columns in flexbox, grid, or multi-column layout. It is shorthand for 'row-gap' and 'column-gap'. For example, 'gap: 10px;' will create a 10px gap between flex items.</p>
+
+    <h2>4. flex-direction</h2>
+    <p>This property determines the main axis around which the flex items are laid out. It can be either a row or a column. For example, 'flex-direction: row;' will lay out the items from left to right in the container, while 'flex-direction: column;' will lay out the items from top to bottom.</p>
+
+    <h2>5. flex-wrap</h2>
+    <p>This property specifies whether flex items are forced onto one line or can wrap onto multiple lines. For example, 'flex-wrap: wrap;' allows the items to wrap onto multiple lines, from top to bottom.</p>
+</body>
+</html>
